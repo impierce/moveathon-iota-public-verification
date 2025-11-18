@@ -3,7 +3,7 @@
 Our submission for the [IOTA Foundation's Moveathon](https://www.moveathon.build/europe) Europe edition.
 
 This repository contains the complete codestack used in the demo using Git submodules.
-It consists of the identity wallet UniMe, the company wallet UniTrust and the ssi-agent UniCore.
+It consists of the identity wallet UniMe, the frontend web pages and the ssi-agent UniCore.
 
 ## The Team
 
@@ -30,14 +30,14 @@ We built a share button into our identity wallet UniMe, which will create a link
 ## Getting Started
 
 To go through the hosted demo flow you don't need to set up anything, which is the whole point of this demo.
-- Install UniMe on your mobile from the internal Beta track in the App/Play store. Access to the internal Beta track is only granted upon request.
-- Scan the QR code to get the EVC credential in your UniMe.
-- Log into our LinkedIn demo account on your mobile. Login info is only granted upon request.
+- If you don't have it yet, install UniMe on your mobile from the internal Beta track in the App/Play store. Access to the internal Beta track is only granted upon request.
+- Scan the QR code to get the EVC credential in your UniMe here: https://hungry-heisenberg-unitrust.dev2.impierce.com/public/00246ff4-bfa0-47b8-ab8b-81abffeb8a70
+- Log into our LinkedIn demo account on your mobile. Login info is granted upon request.
 - Share the credential from your UniMe app. This will take you to LinkedIn and auto-fill the "add certification" form for you. You only have to click "add to profile".
 
 You have now completed the "sharing" part of the flow.
 For the final part of the demo you will switch to the verifier role. Let's say a recruiter looking around online for candidates for a certain vacancy. 
 - Login to a different LinkedIn account, could be your own since no data will be shared or edited in this account.
 - Go to the demo profile on LinkedIn
-- Click on the link under the certification you just added to that profile
+- Click on the link under the certification you just added to that profile. This will take you to the verifiers page of the Ecosystem Leader.
 - Voila, instant verification of a credential without having to download any app or software, nor needing to have it implemented in any of your systems. The full verification experience publicly available and richly displayed.
