@@ -1,0 +1,11 @@
+[submodule "iot-identity-app"]
+	path = iot-identity-app
+	url = https://github.com/Yummygum/iot-identity-app
+[submodule "unime-identity-wallet"]
+	path = unime-identity-wallet
+	url = https://github.com/impierce/identity-wallet
+	branch = hackathon_team_linkedin
+[submodule "unicore-ssi-agent"]
+	path = unicore-ssi-agent
+	url = https://github.com/impierce/ssi-agent
+	branch = hackathon_team_linkedin
